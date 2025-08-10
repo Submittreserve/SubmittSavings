@@ -809,7 +809,7 @@ document.getElementById('todayDate').textContent = new Date().toLocaleDateString
 
     // Logout demo (just returns to landing page)
     document.getElementById('btnLogout').addEventListener('click', ()=>{
-      if(confirm('Sign out ? you will be logged out ')){
+      if(confirm(' you will be logged out ')){
         // In production, call sign-out endpoint & clear session.
         location.href = 'index.html'; // assumes your landing page is index.html
       }
